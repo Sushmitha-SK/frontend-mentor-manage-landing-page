@@ -1,0 +1,74 @@
+:root {
+  --Bright-Red: hsl(12, 88%, 59%);
+  --Dark-Blue: hsl(228, 39%, 23%);
+  --Dark-Grayish-Blue: hsl(227, 12%, 61%);
+  --Very-Dark-Blue: hsl(233, 12%, 13%);
+  --Very-Pale-Red: hsl(13, 100%, 96%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+ }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  list-style: none;
+  text-decoration: none;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+h3{
+  color: var(--Dark-Blue);
+}
+
+h4 {
+  color: hsl(228, 40%, 31%);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+p {
+  color: var(--Dark-Grayish-Blue);
+  line-height: 27px;
+  font-size: 17px;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.text-container h3 {
+  font-size: 30px;
+  width: 80%;
+}
+
+.button-container {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+}
+

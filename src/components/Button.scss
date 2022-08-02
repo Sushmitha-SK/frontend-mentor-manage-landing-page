@@ -1,0 +1,15 @@
+.button-container {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.btn {
+  background-color: var(--Bright-Red);
+  padding: 15px 35px;
+  color: white;
+  border-radius: 35px;
+  box-shadow: rgba(250, 114, 41, 0.3) 0px 19px 38px, rgba(243, 92, 45, 0.22) 0px 15px 12px;
+}
